@@ -10,8 +10,6 @@
 #SBATCH --exclusive
 #SBATCH --mail-type=all
 #SBATCH --mail-user=jinyuntang@lbl.gov
-#SBATCH --output=slurm1_bcrd.out
-#SBATCH --error=slurm1_bcrd.err
 
 module load nco
 

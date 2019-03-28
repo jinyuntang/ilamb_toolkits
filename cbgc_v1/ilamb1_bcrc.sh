@@ -10,11 +10,8 @@
 #SBATCH --exclusive
 #SBATCH --mail-type=all
 #SBATCH --mail-user=jinyuntang@lbl.gov
-#SBATCH --output=slurm1_bcrc.out
-#SBATCH --error=slurm1_bcrc.err
 
 module load nco
-module load matlab
 
 export modeldir=/global/cscratch1/sd/jinyun/acme_scratch/edison/CBGC/20190309.BCRC_CNPECACNT_20TR.ne30_oECv3.edison/run
 #export modeldir=/global/cscratch1/sd/qzhu/acme_scratch/edison/CBGC/
